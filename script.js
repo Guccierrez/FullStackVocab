@@ -1,4 +1,4 @@
-const cardContainer = document.getElementById('cards');
+const cardContainer = document.getElementById('container');
 
 let javascriptQuestions = [
     {
@@ -59,8 +59,8 @@ let javascriptQuestions = [
 
 for (let i = 0; i < javascriptQuestions.length; i++) {
     const card = document.createElement('div');
-    card.classList.add('card');
-    
+    card.setAttribute("id","card")
+    console.log("hello")
     let cardQuestion = document.createElement("h2")
     let cardAnswers = document.createElement("h5")
     
@@ -86,42 +86,5 @@ for (let i = 0; i < javascriptQuestions.length; i++) {
 
 }
 
-
-
-
-
-
-
-// const cardContainer = document.querySelector('.card-container');
-
-// const data = [
-//     {
-//         title: 'Card 1',
-//         content: 'Content for Card 1'
-//     },
-//     {
-//         title: 'Card 2',
-//         content: 'Content for Card 2'
-//     },
-//     {
-//         title: 'Card 3',
-//         content: 'Content for Card 3'
-//     }
-// ];
-
-// for (let i = 0; i < data.length; i++) {
-//     const card = document.createElement('div');
-//     card.classList.add('card');
-
-//     const cardTitle = document.createElement('h2');
-//     cardTitle.textContent = data[i].title;
-
-//     const cardContent = document.createElement('p');
-//     cardContent.textContent = data[i].content;
-
-//     card.appendChild(cardTitle);
-//     card.appendChild(cardContent);
-//     cardContainer.appendChild(card);
-// }
 
 // go over event delegation tonight
