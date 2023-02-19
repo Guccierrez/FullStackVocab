@@ -75,8 +75,7 @@ let javascriptQuestions = [
     },
     {  
          question: 'Difference between attributes and Property',
-        answer: `Attributes - provide more details on an element like ID, type
-        Property - value assigned to the property like type = "text" or value = "name"`
+        answer: 'Attributes - provide more details on an element like ID, type Property - value assigned to the property like type = "text" or value = "name"'
     },
     {  
          question: 'Is JS single threaded',
