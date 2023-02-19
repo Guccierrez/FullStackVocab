@@ -53,6 +53,37 @@ let javascriptQuestions = [
         question: 'what are some ways to add an attribute to a value',
         answer: 'element.dataset.state = "animate" or element.setAttribute("data-state", "animate");'
     },
+    {  
+         question: 'What is node',
+        answer: 'Nodejs allows Javascript code to run outside the browser'
+    },
+    {  
+         question: 'what is the "this" keyword in JS',
+        answer: '"this" refers to the current object, it is commonly used in constructors to assign values to object properties' 
+    },
+    {  
+         question: ' what are some feature of javascript',
+        answer: 'lightweight,cross-platform compatible,opensource, OOP, back and front end'
+    },
+    {  
+         question: 'difference between let and var ',
+        answer: 'let is block scoped, can\'t redeclare variables, hoisting does not occur. Var is function scoped, allows you to redeclare variables,hoisting'
+    },
+    {  
+         question: 'What is DOM',
+        answer: '(Document Object Model) defineds the HTML element as on object'
+    },
+    {  
+         question: 'Difference between attributes and Property',
+        answer: `Attributes - provide more details on an element like ID, type
+        Property - value assigned to the property like type = "text" or value = "name"`
+    },
+    {  
+         question: 'Is JS single threaded',
+        answer: 'This means code is read one line at a time'
+    },
+
+
 ]
 
 
